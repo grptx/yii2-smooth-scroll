@@ -10,12 +10,14 @@ namespace grptx\smoothscroll;
 
 
 use yii\base\Widget;
+use yii\helpers\Json;
 use yii\web\View;
 
 class SmoothScrollWidget extends Widget
 {
     public $options = [];
     public $selector;
+    public $name = 'scroll';
 
     public function init()
     {
@@ -32,9 +34,10 @@ class SmoothScrollWidget extends Widget
         $view = $this->view;
         SmoothScrollAsset::register($view);
 
+        $name = $this->name;
         $selector = $this->selector;
-        $options = json_encode($this->options);
-        $view->registerJs("var scroll = new SmoothScroll('{$selector}',{$options});",View::POS_END);
+        $options = Json::encode($this->options);
+        $view->registerJs("var {$name} = new SmoothScroll('{$selector}',{$options});",View::POS_END);
     }
 
 }
