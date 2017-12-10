@@ -1,12 +1,17 @@
 {
   "name": "grptx/yii2-smooth-scroll",
   "description": "Smooth Scroll component for Yii2",
-  "type": "Yii2 extension",
+  "type": "yii2-widget",
   "require": {
     "yiisoft/yii2": "^2",
     "bower-asset/smooth-scroll.js": "^12"
   },
   "license": "MIT",
+  "keywords": [
+    "yii2",
+    "yii2-widget",
+    "smooth-scroll"
+  ],
   "authors": [
     {
       "name": "grptx",
