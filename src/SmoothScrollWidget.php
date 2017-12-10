@@ -6,7 +6,7 @@
  * Time: 15.08
  */
 
-namespace grptx\smootscroll;
+namespace grptx\smoothscroll;
 
 
 use yii\base\Widget;

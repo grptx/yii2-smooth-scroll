@@ -6,7 +6,7 @@
  * Time: 13.22
  */
 
-namespace grptx\smootscroll;
+namespace grptx\smoothscroll;
 
 
 use yii\web\AssetBundle;
