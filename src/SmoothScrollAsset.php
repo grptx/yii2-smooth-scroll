@@ -16,7 +16,7 @@ class SmoothScrollAsset extends AssetBundle
     public $sourcePath = '@vendor/bower/smooth-scroll.js/dist/js';
 
     public $js = [
-        'smooth-scroll-min.js',
+        'smooth-scroll.min.js',
     ];
 
     public $depends = [
