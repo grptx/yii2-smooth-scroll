@@ -4,7 +4,7 @@
   "type": "yii2-widget",
   "require": {
     "yiisoft/yii2": "^2",
-    "bower-asset/smooth-scroll.js": "^12"
+    "bower-asset/smooth-scroll.js": "*"
   },
   "license": "MIT",
   "keywords": [
