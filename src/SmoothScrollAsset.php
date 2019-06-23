@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class SmoothScrollAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/smooth-scroll.js/dist/js';
+    public $sourcePath = '@bower/smooth-scroll.js/dist/js';
 
     public $js = [
         'smooth-scroll.min.js',
